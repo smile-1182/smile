@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.main {
+    width: 1512px;
+    margin: 0 auto;
+}
+
+.left {
+    width: 450px;
+    height: 820px;
+    border-right: 1px solid rgb(165, 161, 161);
+    float: left;
+    margin-left: 50px;
+}
+
+.right {
+    width:900px;
+    height: 900px;
+    /* border: 1px solid rgb(0, 255, 47); */
+    margin-right: 50px;
+    float: right;
+}
+
+h4 {
+    margin-left: 20px;
+    color: rgb(181, 183, 184);
+}
+
+#t1{
+    margin-top:40px;
+}
+#t2{
+    margin-top:60px;
+}
+.right .z{
+    margin-top: 100px;
+    width: 120px;
+    height: 155px;
+    border-right: 1px solid rgb(227, 221, 221);
+    float: left;
+    margin-left: -29px;
+   
+}
+
+.z p:nth-of-type(1){
+    color: rgb(47, 88, 223);
+}
+.right .r{
+    float: right;
+    width: 705px;
+    /* border: 1px solid red; */
+    margin-top: 40px;
+}
+.r p{
+    text-indent: 33px;
+}
+#xy{
+    color: black;
+    margin: 10px 0;
+}
+#xuhao{
+    width: 156px;
+    margin: 20px 50%;
+}
+
+/* 导航栏 */
+.nav-primary {
+    list-style: none;
+    height: 127px;
+    background: url(../image/di.png);    
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.nav-item {
+    position: relative;
+    display:inline-block;
+    margin-right: 40px;
+    /* 或其他适当的间隔 */
+    /* float: left; */
+
+}
+
+.nav-item a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 127px;
+}
+#z{
+    margin-left: 200px;
+}
+
+.nav-secondary {
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    top: 100px;
+    left: -20px;
+    /* 使二级项出现在一级项下方 */
+    display: none;
+    /* 默认隐藏 */
+    /* 示例背景色 */
+    z-index: 100;
+    /* 确保二级项在其他内容之上 */
+    width: 100px;
+    margin-top: -60px;
+    text-align: center;
+}
+.nav-secondary li{
+
+    height: 20px;
+}
+/* #zz{
+    margin-top:-20px;
+    position: absolute;
+} */
+.nav-secondary a {
+    color: black;
+}
+
+.nav-item:hover .nav-secondary {
+    display: block;
+    /* 当鼠标悬停在一级项上时显示二级项 */
+}
